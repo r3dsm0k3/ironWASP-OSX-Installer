@@ -21,7 +21,9 @@ echo -e "\n\n				Installing wine from macports..	\n"
 sudo port install wine
 echo -e "\n\n				Installing winetricks from macports.	\n"
 sudo port install winetricks
-echo -e "\n\n				Installing .net2 bottle from winetricks.	\n"
+echo -e "\n\n   			Installing mono from macports.	\n"
+sudo port install mono
+echo -e "\n\n   			Installing .net2 bottle from winetricks.	\n"
 winetricks dotnet20
 echo -e "\n\n				Creating the directories.	\n"
 PTH="${HOME}/IRONWASP"
